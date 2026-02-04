@@ -1,6 +1,4 @@
-// Simple interactive script for the website
 document.addEventListener('DOMContentLoaded', function() {
-    // Toggle RA list visibility
     const toggleRA = document.querySelector('.toggle-RA');
     const skillsRA = document.querySelector('.skills-RA');
     if(toggleRA && skillsRA){
@@ -17,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Toggle Course list visibility
     const toggleCourse = document.querySelector('.toggle-course');
     const skillsCourse = document.querySelector('.skills-course');
     if(toggleCourse && skillsCourse){

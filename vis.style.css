@@ -1,12 +1,9 @@
-/* Visualization-specific styles */
-
 body {
   background: #f5f5f5;
   font-family:Garamond ;
   color:#08144b;
 }
 
-/* Journey SVG visualization */
 .vis-svg {
   display: block;
   max-width: 100%;
@@ -54,9 +51,28 @@ body {
   color: var(--accent);
 }
 
-.works { max-width: 800px; }
-.works-grid{display:grid;grid-template-columns:repeat(10fr,minmax(1fr,140px));gap:1rem}
-.work-card{background:#fff;padding:1rem;border:1px solid #e9e9e9;border-radius:6px}
-.work-card h3{margin:.25rem 0; }
-.work-card a{font-weight:600}
+.works {
+    max-width: 800px;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(10fr, minmax(1fr, 140px));
+    gap: 1rem;
+}
+
+.work-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #e9e9e9;
+    border-radius: 6px;
+}
+
+.work-card h3 {
+    margin: .25rem 0;
+}
+
+.work-card a {
+    font-weight: 600;
+}
 
